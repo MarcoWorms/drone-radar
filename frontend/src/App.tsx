@@ -16,7 +16,7 @@ const center = {
   lng: 0
 };
 
-const GOOGLE_MAPS_API_KEY = 'AIzaSyCMqA62e9AKe4y5piHcdKCYP07_nGJmRlg';
+const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
 const libraries: Libraries = ['places'];
 
